@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/42f18ba9a9.js" crossorigin="anonymous"></script>
+    <title>spotify</title>
+</head>
+
+<body>
+    <div class="left-container">
+
+
+        <div class="subContainer1">
+            <a href="#" style="text-decoration: none;">
+                <i class="fa-solid fa-1x fa-house"></i>
+                <p>Home</p>
+            </a>
+
+            <a href="#" style="text-decoration: none;">
+                <i class="fa-sharp fa-solid fa-1x fa-magnifying-glass"></i>
+                <p>Search</p>
+            </a>
+
+            <a href="#" style="text-decoration: none;">
+                <i class="fa-solid fa-music"></i>
+                <p>Library</p>
+            </a>
+        </div>
+
+        <div class="subContainer2">
+
+            <a id="createPlaylist" href="#" style="text-decoration: none;">
+                <i class="fa-solid fa-2x fa-circle-plus"></i>
+                <p id="createText">Create Playlist</p>
+            </a>
+
+            <a href="#" id="createPlaylist2" style="text-decoration: none;">
+                <i class="fa-brands fa-2x fa-gratipay"></i>
+                <p>Liked Songs</p>
+            </a>
+
+
+        </div>
+
+        <hr style="position: relative;top: 30px;width: 185px;left: 35px;">
+
+        <div class="createPlaylist3">
+            <a href="">My songs</a>
+            <a href="">English Songs</a>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="main-container">
+
+
+
+       
+
+
+       <div class="playlist">
+            <div id="box1" onmouseover="hover1()" onmouseout="hoverOut1()">
+                <img src="/Om_Shanti_Om.jpg" alt="" style="height: 70px; width: 70px; border-radius: 5px 0px 0px 5px;">
+
+
+                <button id="btn_1" onmouseover="btnhover1()" onmouseout="btnhoverOut1()">
+                    <i class="fa-solid fa-1x fa-play" style="color: white; position: relative;"></i>
+                </button>
+            </div>
+            <div id="box2" onmouseover="hover2()" onmouseout="hoverOut2()">
+                <img src="/Pathaan-Hindi-Movie-Download.jpeg" alt=""
+                    style="height: 70px; width: 70px; border-radius: 5px 0px 0px 5px;">
+                <button id="btn_2" onmouseover="btnhover2()" onmouseout="btnhoverOut2()">
+                    <i class="fa-solid fa-1x fa-play" style="color: white; position: relative;"></i>
+                </button>
+            </div>
+            <div id="box3" onmouseover="hover3()" onmouseout="hoverOut3()">
+                <img src="/ashique2.jpg" alt="" style="height: 70px; width: 70px; border-radius: 5px 0px 0px 5px;">
+                <button id="btn_3" onmouseover="btnhover3()" onmouseout="btnhoverOut3()">
+                    <i class="fa-solid fa-1x fa-play" style="color: white; position: relative;"></i>
+                </button>
+            </div>
+            <div id="box4" onmouseover="hover4()" onmouseout="hoverOut4()">
+                <img src="/Parmanu_film_poster.jpeg" alt=""
+                    style="height: 70px; width: 70px; border-radius: 5px 0px 0px 5px;">
+
+                <button id="btn_4" onmouseover="btnhover4()" onmouseout="btnhoverOut4()">
+                    <i class="fa-solid fa-1x fa-play" style="color: white; position: relative;"></i>
+                </button>
+            </div>
+            <div id="box5" onmouseover="hover5()" onmouseout="hoverOut5()">
+                <img src="/veer zaara.jpg" alt="" style="height: 70px; width: 70px; border-radius: 5px 0px 0px 5px;">
+                <button id="btn_5" onmouseover="btnhover5()" onmouseout="btnhoverOut5()">
+                    <i class="fa-solid fa-1x fa-play" style="color: white; position: relative;"></i>
+                </button>
+            </div>
+            <div id="box6" onmouseover="hover6()" onmouseout="hoverOut6()">
+                <img src="/hilarious.jpg" alt="" style="height: 70px; width: 70px; border-radius: 5px 0px 0px 5px;">
+                <button id="btn_6" onmouseover="btnhover6()" onmouseout="btnhoverOut6()">
+                    <i class="fa-solid fa-1x fa-play" style="color: white; position: relative;"></i>
+                </button>
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+<div class="poster" id="Poster" onmouseover="glow()" onmouseout="dim()">
+    <div class="ad">
+        <img src="ad.png" alt="" id="photo">
+ 
+<a href="#" class="quote">Love hits</a>
+    </div>
+</div>
+    </div>
+    <!-- player module -->
+
+    <div class="player">
+        <div class="PlayButtons">
+            <i class="fa-solid fa-2x fa-shuffle"></i>
+            <i class="fa-solid fa-2x fa-backward-step"></i>
+            <i class="fa-solid fa-2x fa-circle-play"></i>
+            <i class="fa-solid fa-2x fa-forward-step"></i>
+            <i class="fa-solid fa-2x fa-repeat"></i>
+        </div>
+        <input type="range" name="range" id="myProgressBar" min="0" max="100">
+
+
+
+        <!-- VOLUME -->
+
+        <div class="volume">
+            <i class="fa-solid fa-microphone"></i>
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-house-laptop"></i>
+            <i class="fa-solid fa-volume-off"></i>
+            <input type="range" name="range" id="myVolumeBar" min="0" max="100">
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+<script src="/script.js"></script>
+
+</html>

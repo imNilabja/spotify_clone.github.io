@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Fira+Sans&family=Moon+Dance&family=Oswald:wght@700&family=Poppins&family=Rubik&family=Source+Code+Pro:wght@300&family=Ubuntu:ital@1&display=swap');
+
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.left-container {
+    position: fixed;
+    height: 100%;
+    width: 20%;
+    background-color: rgb(39, 37, 37);
+}
+
+.left-container a {
+    position: relative;
+    top: -20px;
+
+}
+
+.left-container i {
+
+    position: relative;
+    width: 10px;
+    color: white;
+    left: 62px;
+    top: 85px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.left-container p {
+    color: white;
+    font-family: 'Dongle', sans-serif;
+    font-size: 27px;
+    position: relative;
+    top: 56px;
+    left: 105px;
+}
+
+
+#createPlaylist {
+    position: relative;
+    left: -20px;
+    top: 11px;
+}
+
+#createText {
+    position: relative;
+    font-size: 30px;
+    top: 50px;
+}
+
+#createPlaylist2 {
+    position: relative;
+    left: -20px;
+    top: -15px;
+}
+
+.createPlaylist3 {
+    position: relative;
+    left: 45px;
+    top: 72px;
+    padding: 0px;
+    margin-top: 10px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Dongle', sans-serif;
+}
+
+.subContainer1 {
+    position: relative;
+    left: -40px;
+    top: -20px;
+}
+
+.subContainer2 {
+    position: relative;
+    left: -25px;
+    top: -45px;
+}
+
+.createPlaylist3 {
+    position: relative;
+    left: 30px;
+    top: 50px;
+}
+
+.createPlaylist3 a {
+    font-size: 20px;
+    color: white;
+    font-family: 'Dongle', sans-serif;
+    text-decoration: none;
+
+}
+
+.main-container {
+    height: 200vh;
+    width: 100vw;
+    background-image: linear-gradient(to right,rgb(32, 199, 14), black);
+
+}
+
+.playlist{
+    height: 240px;
+    width: 970px;
+    /* background-color: red; */
+    position: relative;
+    left: 285px;
+    top: 350px;
+    
+}
+
+#box1{
+    height: 70px;
+    width: 250px;
+    position: relative;
+    background-color: rgb(53, 52, 52);
+ 
+    top: 30px;
+    left: 50px;
+    border-radius: 5px;
+    cursor: pointer;}
+    
+#btn_1{
+    position: relative;
+    bottom:30px;
+    background-color: rgb(4, 147, 4);
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+    left: 115px;
+    cursor: pointer;
+    border: 0.1 solid black;
+
+}
+
+#btn_2{
+    position: relative;
+    bottom:30px;
+    background-color: rgb(4, 147, 4);
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+    left: 115px;
+    cursor: pointer;
+    border: 0.1 solid black;
+
+}
+
+#btn_3{
+    position: relative;
+    bottom:30px;
+    background-color: rgb(4, 147, 4);
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+    left: 115px;
+    cursor: pointer;
+    border: 0.1 solid black;
+
+}
+
+#btn_4{
+    position: relative;
+    bottom:30px;
+    background-color: rgb(4, 147, 4);
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+    left: 115px;
+    cursor: pointer;
+    border: 0.1 solid black;
+
+}
+
+#btn_5{
+    position: relative;
+    bottom:30px;
+    background-color: rgb(4, 147, 4);
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+    left: 115px;
+    cursor: pointer;
+    border: 0.1 solid black;
+
+}
+
+#btn_6{
+    position: relative;
+    bottom:30px;
+    background-color: rgb(4, 147, 4);
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+    left: 115px;
+    cursor: pointer;
+    border: 0.1 solid black;
+
+}
+
+#box2{
+    height: 70px;
+    width: 250px;
+    position: relative;
+    background-color: rgb(53, 52, 52);
+    top: -40px;
+    left: 360px;
+    border-radius: 5px;
+}
+
+#box3{
+    height: 70px;
+    width: 250px;
+    position: relative;
+    background-color: rgb(53, 52, 52);
+    top: -109px;
+    left: 670px;
+    border-radius: 5px;
+}
+#box4{
+    height: 70px;
+    width: 250px;
+    position: relative;
+    background-color: rgb(53, 52, 52);
+    top: -80px;
+    left: 670px;
+    border-radius: 5px;
+}
+
+#box5{
+    height: 70px;
+    width: 250px;
+    position: relative;
+    background-color:rgb(53, 52, 52);
+    top: -150px;
+    left: 360px;
+    border-radius: 5px;
+}
+
+#box6{
+    height: 70px;
+    width: 250px;
+    position: relative;
+    background-color: rgb(53, 52, 52);
+    top: -220px;
+    left: 50px;
+    border-radius: 5px;
+}
+
+
+.player{
+    width: 1280px;
+    height: 100px;
+    background-color: red;
+    position: sticky;
+    bottom: 0px;    
+    background-color: rgb(39, 37, 37);
+}
+
+#myProgressBar{
+    position: relative;
+ width: 500px;
+ height: 4px;
+    left: 360px;
+    top: 40px;
+    color: whitesmoke;
+}
+.PlayButtons{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 220px;
+    position: relative;
+    left: 520px;
+    top: 35px;
+    cursor: pointer;
+}
+
+
+.volume{
+    /* background-color: red; */
+    color: white;
+    display: flex;
+    position: relative;
+    bottom: 5px;
+    height: 30px;
+    width: 220px;
+    justify-content:space-between;
+    left: 1030px;
+cursor: pointer;
+
+}
+
+#myVolumeBar{
+    color: white;
+    height: 3px;
+    position: relative;
+    top: 7px;
+    width: 70px;
+    left: -15px;
+}
+
+.poster{
+    position: relative;
+    background-image: linear-gradient(to right,rgb(204, 248, 103), black);
+    height: 270px;
+    width: 870px;
+    left: 335px;
+    top: -170px;
+    display: flex;
+    /* border: 0.1px solid black; */
+    /* box-shadow: 2px 0px 40px 0px  rgb(204, 248, 103) ; */
+
+}
+
+/* .ad{
+   
+} */
+
+#photo{
+position: relative;
+height: 200px;
+width: 200px;
+top: 50px;
+left: 20px;
+}
+
+.quote{
+    position: relative;
+    font-size:130px;
+    text-decoration: none;
+    color: white;
+left: 40px;
+top: -45px;
+font-family: 'Dongle', sans-serif;
+
+}
